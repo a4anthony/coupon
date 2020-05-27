@@ -183,7 +183,7 @@ Coupon::callback($coupon_code, $customer_email);
 ENJOY!!!
 
 <p align="center">
-  <img src="https://github.com/a4anthony/coupon/blob/master/Resources/assets/images/dashboard.png?raw=true"/> 
+  <img src="https://github.com/a4anthony/coupon/blob/master/Resources/assets/images/dashboard1.png?raw=true"/> 
 </p>
 
 # Contributing
