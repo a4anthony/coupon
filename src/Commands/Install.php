@@ -85,7 +85,7 @@ class Install extends Command
         $this->info('Publishing assets, database, and config files');
 
         // Publish only relevant resources on install
-        $tags = ['seeds', 'config', 'middleware'];
+        $tags = ['config', 'middleware'];
 
         $this->call('vendor:publish', ['--force' => true, '--provider' => CouponServiceProvider::class, '--tag' => $tags]);
 
@@ -116,8 +116,8 @@ class Install extends Command
 
         if ($this->option('with-dummy')) {
             $this->info('Publishing dummy content');
-            $tags = ['dummy_seeds', 'dummy_content', 'dummy_config', 'dummy_migrations'];
-            //$this->call('vendor:publish', ['--provider' => VoyagerDummyServiceProvider::class, '--tag' => $tags]);
+            $tags = ['seeds'];
+            $this->call('vendor:publish', ['--provider' => CouponServiceProvider::class, '--tag' => $tags]);
             $this->info('Migrating dummy tables');
             $this->call('migrate');
 
@@ -126,7 +126,6 @@ class Install extends Command
         } else {
             //$this->call('vendor:publish', ['--provider' => VoyagerServiceProvider::class, '--tag' => ['config', 'voyager_avatar']]);
         }
-        exec('composer dump-autoload');
         $this->info('Successfully installed a4anthony/coupon! Enjoy');
     }
 }

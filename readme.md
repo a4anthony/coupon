@@ -47,6 +47,11 @@ If you prefer installing it with dummy run
 php artisan coupon:install --with-dummy
 ```
 
+If you encounter any issues with the installation, run the code below to autoload all classes and retry the installation
+```
+composer dump-autoload
+```
+
 And we're all good to go!
 
 Start up a local development server with `php artisan serve` And, visit [http://localhost:8000/coupon/dashboard](http://localhost:8000/coupon/dashboard).
