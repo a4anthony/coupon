@@ -12,7 +12,7 @@
 ### 1. Require the package
 After creating your new Laravel application you can include the coupon package with the following command:
 ```bash
-composer require a4anthony/coupon
+composer require a4anthony/coupon:1.0.0
 ```
 
 ### 2. Add the DB Credentials & APP_URL
