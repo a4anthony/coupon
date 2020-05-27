@@ -1,5 +1,7 @@
 # Coupon Generator for Laravel 
-
+<a href="https://packagist.org/packages/a4anthony/coupon"><img src="https://poser.pugx.org/a4anthony/coupon/downloads.svg?format=flat" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/a4anthony/coupon"><img src="https://poser.pugx.org/a4anthony/coupon/v/stable.svg?format=flat" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/a4anthony/coupon"><img src="https://poser.pugx.org/a4anthony/coupon/license.svg?format=flat" alt="License"></a>
 
 <p align="center">
   <img src="https://github.com/a4anthony/coupon/blob/master/Resources/assets/images/add.png?raw=true" width="300"/>
