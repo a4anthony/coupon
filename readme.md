@@ -47,9 +47,9 @@ php artisan coupon:install --with-dummy
 
 And we're all good to go!
 
-Start up a local development server with `php artisan serve` And, visit [http://localhost:8000/coupon](http://localhost:8000/coupon).
+Start up a local development server with `php artisan serve` And, visit [http://localhost:8000/coupon/dashboard](http://localhost:8000/coupon/dashboard).
 
-## Creating an Admin User
+### Creating an Admin User
 
 If you did go ahead with the dummy data, a user should have been created for you with the following login credentials:
 
