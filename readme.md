@@ -2,8 +2,8 @@
 
 
 <p align="center">
-  <img src="https://raw.github.com/a4anthony/coupon/blob/master/Resources/assets/images/add.png" width="300"/>
-  <img src="https://raw.github.com/a4anthony/coupon/blob/master/Resources/assets/images/edit.png" width="300" /> 
+  <img src="https://github.com/a4anthony/coupon/blob/master/Resources/assets/images/add.png?raw=true" width="300"/>
+  <img src="https://github.com/a4anthony/coupon/blob/master/Resources/assets/images/edit.png?raw=true" width="300" /> 
 </p>
 
 ## Installation Steps
@@ -183,7 +183,7 @@ Coupon::callback($coupon_code, $customer_email);
 ENJOY!!!
 
 <p align="center">
-  <img src="https://raw.github.com/a4anthony/coupon/blob/master/Resources/assets/images/dasboard.png"/> 
+  <img src="https://github.com/a4anthony/coupon/blob/master/Resources/assets/images/dashboard.png?raw=true"/> 
 </p>
 
 # Contributing
