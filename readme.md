@@ -2,8 +2,8 @@
 
 
 <p align="center">
-  <img src="https://s3.amazonaws.com/thecontrolgroup/voyager-screenshot.png" width="500"/>
-  <img src="https://s3.amazonaws.com/thecontrolgroup/voyager-screenshot.png" width="500" /> 
+  <img src="https://s3.amazonaws.com/thecontrolgroup/voyager-screenshot.png" width="300"/>
+  <img src="https://s3.amazonaws.com/thecontrolgroup/voyager-screenshot.png" width="300" /> 
 </p>
 ## Installation Steps
 ### 1. Require the package
@@ -179,8 +179,18 @@ use A4anthony\Coupon\Facades\Coupon;
         Coupon::callback($coupon_code, $customer_email);
 ```
 
-# ENJOY!!!
+ENJOY!!!
 
 <p align="center">
   <img src="https://s3.amazonaws.com/thecontrolgroup/voyager-screenshot.png"/> 
 </p>
+
+# Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+# License
+
+[MIT](https://choosealicense.com/licenses/mit/)
