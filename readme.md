@@ -33,7 +33,7 @@ APP_URL=http://localhost:8000
 ```
 ### 3. Install coupon generator
 Lastly, we can install the coupon generator. You can do this either with or without dummy data.
-The dummy data will include 1 admin account (if no users already exists) and 20 test coupons
+The dummy data will include 1 admin account (if no users already exists) and 5 test coupons
 
 To install the coupon generator without dummy simply run
 
