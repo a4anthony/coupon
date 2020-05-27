@@ -1,0 +1,55 @@
+body {
+    background: #333;
+    min-height: 100vh;
+}
+
+.alert-success {
+    background: transparent!important;
+    border: 1px solid rgb(141, 243, 141);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    color: rgb(141, 243, 141);
+}
+
+.btn {
+    background: #333!important;
+    color: white;
+    border: none!important;
+}
+
+.btn:hover {
+    background: #666!important;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #333!important;
+}
+
+.page-item.active .page-link {
+    background-color: #666;
+    border-color: #666;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+}
+
+.b-shadow {
+    box-shadow: 0 0 .1rem rgba(238, 238, 238, 0.5);
+}
+
+.btn-delete {
+    background: rgb(231, 51, 51)!important;
+}
+
+.btn-delete:hover {
+    background: rgb(230, 91, 91)!important;
+}
